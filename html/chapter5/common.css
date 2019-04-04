@@ -1,0 +1,27 @@
+		h1,h2{
+			font-family:sans-serif;
+			color:gray;
+			font-size:small;
+		}
+		h1{
+			border-bottom:1px solid black;
+			font-size:300%;
+		}
+		h2{
+			text-decoration:underline;
+			font-size:200%;
+		}
+		p{
+			color:gray;
+		}
+		.quote{
+			color:black;
+		}
+		.story{
+			color:black;
+		}
+		
+		blockquote{
+			font-style:italic;
+		}
+		
