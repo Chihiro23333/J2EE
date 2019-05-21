@@ -1,0 +1,59 @@
+header,article,nav{
+    display: block;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 1em 10%;
+}
+header{
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat;
+}
+
+header nav{
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+header nav li{
+    display: inline;
+}
+header nav li a{
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+article{
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.5em;
+}
+td{
+    padding: .5em 3em;
+    text-align: center
+}
+label{
+    display: block
+}
+
+fieldset{
+    border: 0;
+}

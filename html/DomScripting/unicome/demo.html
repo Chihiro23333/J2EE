@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>demo</title>
+</head>
+
+<body>
+        <div class="container-main" id="view">
+                <div class="taocan-box">
+                    <div class="user-info">
+                        <div>
+                            <span class="width-11">联系人姓名：</span>
+                            <input id= "custName" class="input" type="text" placeholder="请输入联系姓名"/>
+                        </div>
+                        <div>
+                            <span class="width-11" >联&nbsp;系&nbsp;电&nbsp;话：</span>
+                            <input id= "custPhone" name="custPhone" class="input" type="text" placeholder="请输入联系人电话"/>
+                        </div>
+                        <div>
+                            <span class="width-11">身&nbsp;份&nbsp;证&nbsp;号：</span>
+                            <input id= "psptId" name="psptId" class="input" type="text" placeholder="请输入身份证号"/>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div style="display:none;">
+                            <span class="width-11" >选&nbsp;择&nbsp;区&nbsp;域：</span>
+                            <input id= "area" class="input" readonly="readonly" type="text" placeholder="请选择区域"/>
+                            <input id="areaValue" name="areaValue" type="hidden" value=",," />
+                        </div>
+                        
+                        <div>
+                            <span class="width-11"  style="vertical-align: top">详&nbsp;细&nbsp;地&nbsp;址：</span>
+                            <textarea class="textarea-1" id="address" maxlength="50" name="address" placeholder="请输入详细地址"></textarea>
+                        </div>
+                        <div>
+                            <span class="width-11" >电&nbsp;子&nbsp;邮&nbsp;箱：</span>
+                            <input id="email" name="email" class="input" type="text" maxlength="100" placeholder="电子邮箱"/>
+                        </div>
+                        <div>
+                            <span class="width-11" style="vertical-align: top">备&nbsp;&nbsp;&nbsp;&nbsp;注：</span>
+                            <textarea id="remark" name="remark" maxlength="200" class="textarea-1"></textarea>
+                        </div>
+                        <section class=apply> 
+                            <div class=protocol-div> 
+                                <p class="protocol agree" style="    line-height: .1rem;" id=protocol>
+                                    <i class=protocol-radio style="top: -.1rem;"></i>我已阅读并同意<a href=javascript:; id=go-protocol>《客户入网服务协议及业务协议》</a>
+                                    <!-- <input type="checkbox"/>我已阅读并同意<a href=javascript:; id=go-protocol>《客户入网服务协议及业务协议》</a> --> 
+                                </p>
+                            </div> 
+                        </section> 
+                    </div>
+                    <div class="btn" onclick="submitOrderInfo();" id="submit">立即办理</div>
+                    <div class="btn" onclick="history.go(-1);" style="display: none" id="btn-back">返回</div>
+                </div>
+                
+              </div>
+            
+</body>

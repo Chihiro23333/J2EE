@@ -1,0 +1,30 @@
+div{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    margin: 0px 0px 100px 100px;
+    background-color: tomato;
+    transform: rotate(-45deg);
+    float: left;
+}
+div:before{
+    content: "";
+    position: absolute;
+    top:-50px;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+div:after{
+    content: "";
+    position: absolute;
+    top:0px;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    border-radius: 50%;
+    background-color: tomato;
+}

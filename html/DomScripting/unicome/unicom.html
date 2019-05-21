@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>联通沃扫码</title> 
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> -->
+        <link rel="stylesheet" type="text/css" href="styles/unicome.css">
+    </head>
+    <body>
+        <form id="form" method="POST" action="/">
+
+            <table>
+                <tr>
+                    <td class="desc">联系人姓名:</td>
+                    <td>
+                        <input class="input" type="text" name="name" placeholder="请输入联系姓名">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc">联系电话:</td>
+                    <td>
+                        <input class="input" type="tel" name="phone" placeholder="请输入联系电话">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc">身份证号:</td>
+                    <td>
+                        <input class="input" type="text" name="cardnum" placeholder="请输入身份证号">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc">详细地址:</td>
+                    <td>
+                        <textarea class="input" type="text" name="addr" placeholder="请输入详细地址" rows="4" maxlength="200"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc">电子邮箱:</td>
+                    <td>
+                        <input class="input" type="email" name="email" placeholder="请输入电子邮箱">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc">详细地址:</td>
+                    <td>
+                        <input class="input" type="text" name="addr" placeholder="请输入详细地址">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc">备注:</td>
+                    <td>
+                        <textarea class="input" type="text" name="remark" placeholder="备注" rows="4" maxlength="200"></textarea>
+                    </td>
+                </tr>
+                
+            </table>
+
+            <div id="submitDiv">
+                <input id="submit" type="submit" value="立即办理">
+            </div>
+
+        </form>
+
+        <script type="text/javascript" src="scripts/unicom.js"></script>
+    </body>
+</html>

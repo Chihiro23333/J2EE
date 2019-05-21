@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+body div{
+   border-bottom: 1px solid beige;
+}
+input{
+    border: 0px;
+    font-size: 1em;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    padding: 20px 0px 20px 0px;
+}
+textarea{
+    border: 0px;
+    font-size: 1em;
+    outline: none;
+    padding-left: 20px;
+}
+input:focus{
+    outline: none
+}
+textarea:focus{
+    outline: none
+}
+
+.desc{
+    width:50%;
+    text-align: end;
+    background-color: blueviolet;
+    vertical-align: middle;
+    line-height: 100px;
+}
+.input{
+    background-color: aquamarine;
+    vertical-align: middle;
+}
+

@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    color: #000;
+}
+table{
+    margin: auto;
+    border: 1px solid #799;
+}
+th{
+    background-color: aquamarine;
+    text-align: left;
+    border: 1px dotted #699;
+}
+th,td{
+    width: 10em;
+    padding: 0.5em;
+}
+/* tr:hover{
+    font-weight: bold;
+} */
+.intro{
+    background-color: bisque;
+}
+
+
