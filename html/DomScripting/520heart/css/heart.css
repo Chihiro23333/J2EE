@@ -28,3 +28,7 @@ div:after{
     border-radius: 50%;
     background-color: tomato;
 }
+p{
+    text-align: center;
+    font-size: 3em;
+}

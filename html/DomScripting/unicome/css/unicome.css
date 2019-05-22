@@ -17,7 +17,7 @@ td{
     width: 50%;
 }
 
-tr .desc{
+.desc{
     vertical-align: top;
     font-size: 0.3rem;
 }
@@ -28,12 +28,19 @@ tr .desc{
 }
 #submit{
     background-color: coral;
-    padding: 0.2rem 1rem 0.2rem 1rem;
+    padding: 0.15rem 1rem 0.15rem 1rem;
     border-width: 0px;
     border-radius: 10px;
     color: white;
     font-size: 0.3rem;
+    outline:none;
+    border:0px;
 }
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+
 #ad_img{
     width: 100%;
     margin: 0.1rem 0rem 0.1rem 0rem;
@@ -90,4 +97,7 @@ ul{
     text-align: center;
     font-size: 0.4rem;
     margin: 0rem 0rem 0.5rem 0rem;
+}
+body> :not(.realBody){
+    display:none;
 }
