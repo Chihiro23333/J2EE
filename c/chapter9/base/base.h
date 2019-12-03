@@ -1,0 +1,2 @@
+
+char* delespace(char *line);

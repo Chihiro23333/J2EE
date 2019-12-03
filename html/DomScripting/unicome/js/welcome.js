@@ -1,7 +1,6 @@
 const unCheckTaoCan = "taocan";
 const checkTaoCan = "taocan_active";
 
-addLoadEvent(init);
 addLoadEvent(addToogleTaoCan);
 addLoadEvent(addSubmitAction);
 addLoadEvent(checkFirst);
